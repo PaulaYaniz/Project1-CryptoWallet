@@ -22,9 +22,9 @@ Justify the tools/structure of your solution
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4.
-5. ¿It will give value in different currencies?
-6. ¿The program will show graphs?
-7. ¿The program will show data of the crypto in multiple dates?
+5. It will give value in different currencies: EUR (Euros), GBP (Pound sterling) and JPY (Yen).
+6. ¿The program will show graphs about ...?
+7. ¿The program will show data of the crypto in multiple dates ??? <-- hard to do
 8. ¿The user will only see the data with a password?
 
 # Criteria B: Design
