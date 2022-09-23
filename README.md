@@ -10,6 +10,13 @@ Ms. Sato is a local trader who is interested in the emerging market of cryptocur
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
 
+An example of the data store is
+| Date | Description | Category | Amount |
+|:-----:|:---------:|:------:|:-----:|
+| Sep 23 2022 | bought a house | expenses | 10 BTC |
+| Sep 24 2022 | food for house celebration | food | 0.000001 BTC |
+
+
 ## Proposed Solution
 
 ### Design statement:
@@ -24,11 +31,9 @@ In my program code there are comments explaining each part of it and the variabl
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. 
-5. The user will only be able to see the data in the program after entering a password.
-6. It will give value in two different currencies: EUR (Euros) and JPY (Yen).
-7. ¿The program will show graphs about ...?
-8. ¿The program will show data of the crypto in multiple dates ??? <-- hard to do
+4. The user will only be able to see the data in the program after entering a password.
+5. It will give value in two different currencies: EUR (Euros) and JPY (Yen).
+6. The program will show statistics and graphs: total coins in the wallet, total money spent, money spent in each category
 
 # Criteria B: Design
 
