@@ -23,9 +23,19 @@ An example of the data store is
 I will design and make a digital ledger for a client who is a trader. The digital ledger will consist on a tool for being able to keep track of cryptocurrencies investments, transactions and to know some statistics, and is constructed using the software Python. It will take 3 weeks to make and will be evaluated according to the criteria ???.
 
 ### Justify the tools/structure of your solution
-I have chosed Python for my program because...
+Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners.^1 According to Stack Overflow Developer Survey in 2022, 48% of programmers use Python^2, so there is a big Internet community for asking for help. Also, its codes can be easily written and executed much faster than other programming languages. Python is an open source and has a lot of libraries to complement the code, so you can do practically anything with your code.
 
-In my program code there are comments explaining each part of it and the variables have understandable names.
+#### Bibliography
+1. Makai, Matt. “Why Use Python?” Full Stack Python, 2021, https://www.fullstackpython.com/why-use-python.html.
+2. “Stack Overflow Developer Survey 2022.” Stack Overflow, May 2022, https://survey.stackoverflow.co/2022/#most-popular-technologies-language. 
+
+### Rationale for the Proposed Solution
+The program starts with a quick description of it, followed by a login system so the user's personal data doesn't get accesed third people. The user will be able to change the username and the password.
+
+Then, the program has a list of actions, which makes the user's experience more enjoyable, as they will be able to choose quickly what they want to do.
+After the user chooses an option, a function for that option runs, making the code clearer and easier to understand for developers.
+
+There are comments on each step, so someone that reads the code can understand what is happening easily. Also, there are functions that make the code simple and variables with names that are understandable.
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
@@ -34,12 +44,28 @@ In my program code there are comments explaining each part of it and the variabl
 4. The user will only be able to see the data in the program after entering a password.
 5. It will give value in two different currencies: EUR (Euros) and JPY (Yen).
 6. The program will show statistics and graphs: total coins in the wallet, total money spent, money spent in each category
+7. The program will show the real time value of the cryptocurrency.
 
 # Criteria B: Design
+
+## Test Plan
+| Test | Description | Procedure | Expected Output |
+|:----:|:-----------:|:---------:|:---------------:|
+| Unit test of the login system | This test is evaluating the function for the login system | 1. Run the program main.py in CryptoWallet 2. Enter a username and a password | If the username and password are incorrect, the program will give two more oportunities. If the username and password are correct, it will show the rest of the program. | 
+| Unit test of Option 1 |  |  |  
+| Unit test of Option 2 |  |  |  
+| Unit test of Option 3 |  |  |  
+| Unit test of Option 4 |  |  |  
+| Unit test of Option 5 |  |  |  
+| Unit test of Option 6 |  |  |  
+| Unit test of Option 7 |  |  |  
+
 
 ## System Diagram
 
 ## Flow Diagrams
+
+## User Interface Sketch
 
 
 ## Record of Tasks
@@ -55,3 +81,20 @@ In my program code there are comments explaining each part of it and the variabl
 |      8      |      Improve user intuitive instructions     | Change some codes so it is easier for the user to understand the program, based on the previous test |     30min     |          Oct 4         |     C     |
 |      9      |        Write future improvements ideas       |                   So the client can see that the program can be improved over time                   |     10min     |          Oct 4         |     B     |
 
+**Table 1:** Record of Task- showing the planning and working process of the project. All the steps are related to Planning, Solution Overview analysis and Development (criterias A, B and C). The target completion date and the time estimate for each task is also shown.
+
+# Criterion C ????
+
+## Existing tools
+This refers to the software tools used during the development of the solution, and structures such as for loops, and bash commands
+
+## Sources
+
+## Tools used in Unit 1
+Functions
+For/while loops
+Input Validation
+If statements
+Encryption
+
+When code was researched in the web, proper citation is used to give credit to the original author.
