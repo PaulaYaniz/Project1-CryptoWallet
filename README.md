@@ -9,8 +9,6 @@ Ms. Sato is a local trader who is interested in the emerging market of cryptocur
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
 
-(106 words, write until 250???)
-
 An example of the data store is
 | Date | Description | Category | Amount |
 |:-----:|:---------:|:------:|:-----:|
@@ -21,25 +19,21 @@ An example of the data store is
 ## Proposed Solution
 
 ### Design statement:
-I will design and make a digital ledger for a client who is a trader. The digital ledger will consist on a tool for being able to keep track of cryptocurrencies investments, transactions and to know some statistics, and is constructed using the software Python. It will take 3 weeks to make and will be evaluated according to the criteria ???.
-
-### Justify the tools/structure of your solution
-Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners.^1 According to Stack Overflow Developer Survey in 2022, 48% of programmers use Python^2, so there is a big Internet community for asking for help. Also, its codes can be easily written and executed much faster than other programming languages. Python is an open source and has a lot of libraries to complement the code, so you can do practically anything with your code.
-
-#### Bibliography
-1. Makai, Matt. “Why Use Python?” Full Stack Python, 2021, https://www.fullstackpython.com/why-use-python.html.
-2. “Stack Overflow Developer Survey 2022.” Stack Overflow, May 2022, https://survey.stackoverflow.co/2022/#most-popular-technologies-language. 
+I will design and make a digital ledger for a client who is a trader. The digital ledger will consist on a tool for being able to keep track of cryptocurrencies investments, transactions and to know some statistics, and is constructed using the software Python. It will take 3 weeks to make and will be evaluated according to the criteria A and B.
 
 ### Rationale for the Proposed Solution
-The program starts with a quick description of it, followed by a login system so the user's personal data doesn't get accesed third people. The user will be able to change the username and the password.
-
+The program starts with a quick description of it, followed by a login system so the user's personal data doesn't get accessed third people. The user will be able to change the username and the password.
 Then, the program has a list of actions, which makes the user's experience more enjoyable, as they will be able to choose quickly what they want to do.
 After the user chooses an option, a function for that option runs, making the code clearer and easier to understand for developers.
-
 There are comments on each step, so someone that reads the code can understand what is happening easily. Also, there are functions that make the code simple and variables with names that are understandable.
 
-### Justify the software selected
-### Justify the structure of the proposed solution
+About the software selected, Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners.[^1] According to Stack Overflow Developer Survey in 2022, 48% of programmers use Python[^2], so there is a big Internet community for asking for help. Also, its codes can be easily written and executed much faster than other programming languages[^3]. Python is an open source and has a lot of libraries to complement the code[^4], so you can do practically anything with your code.
+
+[^1]: Makai, Matt. “Why Use Python?” Full Stack Python, 2021, https://www.fullstackpython.com/why-use-python.html.
+[^2]: “Stack Overflow Developer Survey 2022.” Stack Overflow, May 2022, https://survey.stackoverflow.co/2022/#most-popular-technologies-language. 
+[^3]: citation needed
+[^4]: citation needed
+
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
@@ -60,21 +54,15 @@ There are comments on each step, so someone that reads the code can understand w
 | Unit test of Option 1 |  |  |  
 | Unit test of Option 2 |  |  |  
 | Unit test of Option 3 |  |  |  
-| Unit test of Option 4 |  |  |  
-| Unit test of Option 5 |  |  |  
-| Unit test of Option 6 |  |  |  
-| Unit test of Option 7 |  |  |  
-
 
 ## System Diagram
+![systemdiagram-systemdiagram drawio](https://user-images.githubusercontent.com/89135778/193449826-f7f245d0-d90a-4537-a517-168e76d2c484.png)
+
+**Figure 1:** System diagram of my project
+
+Fig.1 is the System Diagram. It shows the brand and type of the computer, with its specifications and the Operative System is has. The program runs in Python 3.8 and uses different codes (main, login, website_data and proj_lib). Then, these codes connect with a database of csv files (data_transactions and login).
 
 ## Flow Diagrams
-
-## UML Diagrams
-
-## Database Diagrams
-
-## Pseudocode
 
 ## User Interface Sketch
 
@@ -94,7 +82,7 @@ There are comments on each step, so someone that reads the code can understand w
 
 **Table 1:** Record of Task- showing the planning and working process of the project. All the steps are related to Planning, Solution Overview analysis and Development (criterias A, B and C). The target completion date and the time estimate for each task is also shown.
 
-# Criterion C ????
+# Criterion C
 
 ## Existing tools
 This refers to the software tools used during the development of the solution, and structures such as for loops, and bash commands
