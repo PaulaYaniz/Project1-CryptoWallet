@@ -5,10 +5,11 @@
 # Criteria A: Planning
 
 ## Problem definition
-
 Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
+
+(106 words, write until 250???)
 
 An example of the data store is
 | Date | Description | Category | Amount |
@@ -37,6 +38,9 @@ After the user chooses an option, a function for that option runs, making the co
 
 There are comments on each step, so someone that reads the code can understand what is happening easily. Also, there are functions that make the code simple and variables with names that are understandable.
 
+### Justify the software selected
+### Justify the structure of the proposed solution
+
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
@@ -45,6 +49,7 @@ There are comments on each step, so someone that reads the code can understand w
 5. It will give value in two different currencies: EUR (Euros) and JPY (Yen).
 6. The program will show statistics and graphs: total coins in the wallet, total money spent, money spent in each category
 7. The program will show the real time value of the cryptocurrency.
+
 
 # Criteria B: Design
 
@@ -65,10 +70,16 @@ There are comments on each step, so someone that reads the code can understand w
 
 ## Flow Diagrams
 
+## UML Diagrams
+
+## Database Diagrams
+
+## Pseudocode
+
 ## User Interface Sketch
 
 
-## Record of Tasks
+## Record of Tasks (make it chronological!)
 | Task Number |                Planned Action                |                                            Planned Outcome                                           | Time estimate | Target completion date | Criterion |
 |:-----------:|:--------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:-------------:|:----------------------:|:---------:|
 |      1      |             Create system diagram            |       To have a clear idea of the hardware and software requirements for the proposed solution       |     10min     |         Sep 24         |     B     |
@@ -89,12 +100,11 @@ There are comments on each step, so someone that reads the code can understand w
 This refers to the software tools used during the development of the solution, and structures such as for loops, and bash commands
 
 ## Sources
+When code was researched in the web, proper citation is used to give credit to the original author.
 
 ## Tools used in Unit 1
-Functions
-For/while loops
-Input Validation
-If statements
-Encryption
-
-When code was researched in the web, proper citation is used to give credit to the original author.
+- Functions
+- For/while loops
+- Input Validation
+- If statements
+- Encryption
