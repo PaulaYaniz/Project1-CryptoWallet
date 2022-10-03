@@ -1,7 +1,6 @@
 # Project 1: Crypto Wallet
 
-![image](https://user-images.githubusercontent.com/89135778/190615753-6618e1a2-ce8c-4561-9206-66b0378facc2.png)
-
+![image](https://user-images.githubusercontent.com/89135778/193613110-e74db9e8-839d-49c8-bb3e-4e790765b783.png)
 # Criteria A: Planning
 
 ## Problem definition
