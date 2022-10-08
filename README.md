@@ -14,6 +14,7 @@ An example of the data store is
 | Sep 23 2022 | bought a house | expenses | 10 BTC |
 | Sep 24 2022 | food for house celebration | food | 0.000001 BTC |
 
+Right now, there are multiple digital ledgers for cryptocurrencies. It is easy to find a lot of examples of them with a quick search on the internet. However, the digital ledger Ms. Sato wants will be made especially for her, so she will be able to totally personalize it and to add all the functions she want. Also, it will run locally in her computer, not on a website.
 
 ## Proposed Solution
 
@@ -21,27 +22,27 @@ An example of the data store is
 I will design and make a digital ledger for a client who is a trader. The digital ledger will consist on a tool for being able to keep track of cryptocurrencies investments, transactions and to know some statistics, and is constructed using the software Python. It will take 3 weeks to make and will be evaluated according to the criteria A and B.
 
 ### Rationale for the Proposed Solution
-The program starts with a quick description of it, followed by a login system so the user's personal data doesn't get accessed third people. The user will be able to change the username and the password.
+The program starts with a brief description of the cryptocurrency, followed by a login system so the user's personal data doesn't get accessed by third people. The user will be able to change the username and the password once the program is open.
 Then, the program has a list of actions, which makes the user's experience more enjoyable, as they will be able to choose quickly what they want to do.
-After the user chooses an option, a function for that option runs, making the code clearer and easier to understand for developers.
-There are comments on each step, so someone that reads the code can understand what is happening easily. Also, there are functions that make the code simple and variables with names that are understandable.
+After the user chooses an option, that option runs. Each option is separated with comments, making the code clearer and easier to understand for developers.
+There are also comments on each step, so someone that reads the code can understand what is happening easily. Also, there are functions that make the code simple and variables with names that are understandable.
 
 About the software selected, Python is one of the most accessible programming languages because it is not complicated and has simplified syntax very similar to the English language, which is perfect for beginners.[^1] According to Stack Overflow Developer Survey in 2022, 48% of programmers use Python[^2], so there is a big Internet community for asking for help. Also, its codes can be easily written and executed much faster than other programming languages[^3]. Python is an open source and has a lot of libraries to complement the code[^4], so you can do practically anything with your code.
 
 [^1]: Makai, Matt. “Why Use Python?” Full Stack Python, 2021, https://www.fullstackpython.com/why-use-python.html.
 [^2]: “Stack Overflow Developer Survey 2022.” Stack Overflow, May 2022, https://survey.stackoverflow.co/2022/#most-popular-technologies-language. 
-[^3]: citation needed
-[^4]: citation needed
+[^3]: “Advantages of Python over Other Programming Languages.” Vilmate, 2019, https://vilmate.com/blog/python-vs-other-programming-languages/. 
+[^4]: “About Python.” Python.org, https://www.python.org/about/. 
 
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
-2. The electronic ledger display the basic description of the cyrptocurrency selected.
+2. The electronic ledger display the basic description of the XLM.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. The user will only be able to see the data in the program after entering a password.
-5. It will give value in two different currencies: EUR (Euros) and JPY (Yen).
-6. The program will show statistics and graphs: total coins in the wallet, total money spent, money spent in each category
-7. The program will show the real time value of the cryptocurrency.
+4. The user will only be able to see the data in the program after entering a correct username and password.
+5. The program will show statistics: total coins in the wallet, total money spent and net balance.
+6. The program will show a graph: changes in the XLM value during time.
+7. The program will show the real time value of the XLM in EUR (euros) and JPY (yen) connecting to the internet.
 
 
 # Criteria B: Design
