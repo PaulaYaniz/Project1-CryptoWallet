@@ -50,10 +50,10 @@ About the software selected, Python is one of the most accessible programming la
 ## Test Plan
 | Test | Description | Procedure | Expected Output |
 |:----:|:-----------:|:---------:|:---------------:|
-| Unit test of the login system | This test is evaluating the function for the login system | 1. Run the program main.py in CryptoWallet 2. Enter a username and a password | If the username and password are incorrect, the program will give two more oportunities. If the username and password are correct, it will show the rest of the program. | 
-| Unit test of Option 1 |  |  |  
-| Unit test of Option 2 |  |  |  
-| Unit test of Option 3 |  |  |  
+| Unit test of the login system | This test is evaluating the function for the login system | 1. Run the program CryptoWalletMain.py in CryptoWallet 2. Enter a username and a password | If the username and password are incorrect, the program will not show its content. If the username and password are correct, it will show the rest of the program. | 
+| Unit test of Option 1 | This test is evaluation option 1, showing all data | The user press the "1" key after the program asks for it. | A table will be shown with all the information it is on the csv file of the data of the program. |  
+| Unit test of Option 2 | This test in evaluating option 2, deposit of crypto. | 1. Run the  program CryptoWalletMain.py in CryptoWallet 2. Enter the correct username and password. 3. Press "2" key after the program asks for it. | It should appear a initial message explaining what is happening. Then, questions about your transaction (quantity, value, description) so the program can add the data to the csv file. | 
+| Unit test of Option 6 | This test is evaluating option 6, real-time value of the XLM. | 1. Run the  program CryptoWalletMain.py in CryptoWallet 2. Enter the correct username and password. 3. The user press the "6" key after the program asks for it. | The program should try to connect to an internet website to get the data. Then, it will print it. If there is no internet conection, it should appear a message of error. |  
 
 ## System Diagram
 ![systemdiagram-systemdiagram drawio](https://user-images.githubusercontent.com/89135778/193449826-f7f245d0-d90a-4537-a517-168e76d2c484.png)
@@ -64,21 +64,18 @@ Fig.1 is the System Diagram. It shows the brand and type of the computer, with i
 
 ## Flow Diagrams
 
-## User Interface Sketch
-
-
 ## Record of Tasks (make it chronological!)
 | Task Number |                Planned Action                |                                            Planned Outcome                                           | Time estimate | Target completion date | Criterion |
 |:-----------:|:--------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:-------------:|:----------------------:|:---------:|
-|      1      |             Create system diagram            |       To have a clear idea of the hardware and software requirements for the proposed solution       |     10min     |         Sep 24         |     B     |
-|      2      |                 Code the MVP                 |                                                                                                      |       5h      |         Sep 22         |     C     |
-|      3      |            Draw the flow diagrams            |                  To have clear ideas on how to code and how the programme would work                 |      1h30     |         Sep 30         |     B     |
-|      4      | Write proposed solution and success criteria |           For having clear ideas about the project, the design, the software and the goals.          |     10min     |         Sep 22         |     A     |
-|      5      |          Draw user interface sketch          |                             To know how the digital ledger will look like                            |     15min     |         Sep 20         |     B     |
+|      1      |             Create system diagram            |       To have a clear idea of the hardware and software requirements for the proposed solution       |     10min     |         Sep 22         |     B     |
+|      2      |                 Code the MVP                 |                         To show the client the basic working of the program.                         |       5h      |         Sep 24         |     C     |
+|      3      |            Draw the flow diagrams            |                  To have clear ideas on how to code and how the programme would work                 |      1h30     |         Sep 27         |     B     |
+|      4      | Write proposed solution and success criteria |           For having clear ideas about the project, the design, the software and the goals.          |     10min     |         Sep 28         |     A     |
+|      5      |                Write test plan               |                   For knowing the things that should work and how they should work.                  |     30min     |         Sep 30         |     B     |
 |      6      |                Finish the code               |                                    To have the final project ready                                   |       5h      |          Oct 3         |     C     |
-|      7      |               Test the project               |                    Different UWC ISAK Japan students will try my program as users                    |     20min     |          Oct 4         |     E     |
-|      8      |      Improve user intuitive instructions     | Change some codes so it is easier for the user to understand the program, based on the previous test |     30min     |          Oct 4         |     C     |
-|      9      |        Write future improvements ideas       |                   So the client can see that the program can be improved over time                   |     10min     |          Oct 4         |     B     |
+|      7      |               Test the project               |                    Different UWC ISAK Japan students will try my program as users                    |     20min     |          Oct 7         |     E     |
+|      8      |      Improve user intuitive instructions     | Change some codes so it is easier for the user to understand the program, based on the previous test |     30min     |          Oct 8         |     C     |
+|      9      |                Final revision                |                Prove that everything is working and I have all the information needed                |       1h      |          Oct 9         |  A,B,C,E  |
 
 **Table 1:** Record of Task- showing the planning and working process of the project. All the steps are related to Planning, Solution Overview analysis and Development (criterias A, B and C). The target completion date and the time estimate for each task is also shown.
 
