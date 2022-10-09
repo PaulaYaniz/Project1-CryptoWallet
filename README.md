@@ -124,6 +124,9 @@ Start of the program and options:
 ```
 While loops
 
+### Video
+https://drive.google.com/drive/folders/1VbTAZp9ZAoXI93-6bTIChkl7Cs40-S46?usp=sharing
+
 ## Sources
 StackOverFlow.com
 
