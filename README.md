@@ -82,10 +82,52 @@ Fig.1 is the System Diagram. It shows the brand and type of the computer, with i
 # Criterion C
 
 ## Existing tools
-This refers to the software tools used during the development of the solution, and structures such as for loops, and bash commands
+Login system
+```.py
+def login(user: str, password: str) -> bool:
+    """
+    :param user: string
+    :param password: string
+    :return: true or false
+    """
+
+    with open("login.csv") as file:
+        database = file.readlines()
+    output = False
+    for line in database:
+        clear_line = line.strip()
+        separated_line = clear_line.split(",")
+        if user == separated_line[0] and password == separated_line[1]:
+            output = True
+
+    return output
+```
+Functions, CSV files, if statements, for loops.
+
+Start of the program and options:
+```.py
+      print(f"{proj_lib.intense_purple}Options:{end_code}".center(20))
+      menu = """1. Show all data
+2. Deposit crypto
+3. Withdraw crypto
+4. Edit past transactions
+5. View statistics
+6. View real-time value of XLM
+7. View graphic of the historical price of XLM
+8. Edit password
+9. Exit program
+      """
+      print(proj_lib.intense_yellow, menu, end_code)
+      option = validate_int_input(prompt_msg)
+      while option > 9 or option < 1:
+          option = validate_int_input(f"{proj_lib.red}Invalid option. {prompt_msg}{end_code}")
+```
+While loops
 
 ## Sources
-When code was researched in the web, proper citation is used to give credit to the original author.
+StackOverFlow.com
+
+YouTube.com
 
 ## Tools used in Unit 1
 - Functions
@@ -93,3 +135,4 @@ When code was researched in the web, proper citation is used to give credit to t
 - Input Validation
 - If statements
 - Encryption
+- Others
