@@ -34,8 +34,7 @@ try:
 
     output = False
     while not output:
-        # output = login(user=input("Please enter your username: "), password=input("Please enter your password: "))
-        output = login(user="sato", password="changeme")
+        output = login(user=input("Please enter your username: "), password=input("Please enter your password: "))
 
         if not output:
             print(f"{proj_lib.intense_red}Incorrect username or password. Please try again.{end_code}")
