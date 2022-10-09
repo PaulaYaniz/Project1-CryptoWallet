@@ -1,6 +1,6 @@
-transaction_type,date,description,crypto_amount,euros_value
-buy,2022-10-06,abcs,3,4
-sell,2022-10-06,DSDDD,3,4
-buy,2022-10-06,fsfdsd,3,4
-buy,2022-10-06,fsdsf,3,4
-buy,2022-10-06,tegreret,3,4
+transaction_type,date,comment,crypto_amount,jpy_value
+deposit, 2022-10-06, investments, 15200,276853
+withdraw,2022-10-06,buying food,194,3533
+deposit,2022-10-06,present from my friend,776,14134
+deposit,2022-10-06,mining,7700,140248
+withdraw,2022-10-06,buying a bike,11653,212248
