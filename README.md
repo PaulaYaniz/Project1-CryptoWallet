@@ -63,6 +63,9 @@ About the software selected, Python is one of the most accessible programming la
 Fig.1 is the System Diagram. It shows the brand and type of the computer, with its specifications and the Operative System is has. The program runs in Python 3.8 and uses different codes (main, login, website_data and proj_lib). Then, these codes connect with a database of csv files (data_transactions and login).
 
 ## Flow Diagrams
+![CS-TASKS-task2-intromenu drawio (1)](https://user-images.githubusercontent.com/89135778/194746039-bc0c69f1-5da8-4e6e-a005-94a5aaf776b0.png)
+![CS-TASKS-my_lib drawio (3)](https://user-images.githubusercontent.com/89135778/194746062-546e6be7-22b2-4680-8956-9b85489f08bf.png)
+![CS-QUIZZES-001-016-009 drawio](https://user-images.githubusercontent.com/89135778/194746147-2b56a00d-1906-445f-8aff-e07b19e5b485.png)
 
 ## Record of Tasks (make it chronological!)
 | Task Number |                Planned Action                |                                            Planned Outcome                                           | Time estimate | Target completion date | Criterion |
